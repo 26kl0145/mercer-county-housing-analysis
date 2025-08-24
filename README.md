@@ -1,6 +1,6 @@
 # mercer-county-housing-analysis
 
-This folder contains all the code created in order to extract Census Bureau data, build models to predict house value, and map the data and predictions using GeoJSON data from the TIGERWeb API.
+This repository contains all the code created in order to extract Census Bureau data, build models to predict house value, and map the data and predictions using GeoJSON data from the TIGERWeb API.
 
 
 
