@@ -1,8 +1,17 @@
 # mercer-county-housing-analysis
 
-This repository contains all the code created in order to extract Census Bureau data, build models to predict house value, and map the data and predictions using GeoJSON data from the TIGERWeb API.
+This repository contains code and analysis for exploring housing price trends in Mercer County, New Jersey, from 2012 to 2022. Using U.S. Census data, machine learning models, and geospatial mapping, this project investigates socioeconomic disparities in housing values and predicts future housing prices.
 
+The research highlights persistent economic inequality across the county, particularly between Trenton and Princeton, and demonstrates the utility of deep learning models for forecasting housing market trends.
 
+## Key Features
+- Extract and process Census Bureau data for median house values, household income, racial composition, and educational attainment across Mercer County census tracts.
+- Train and evaluate multiple predictive models for housing prices, including:
+  - Linear OLS and Lasso regression
+  - XGBoost with Optuna tuning
+  - Neural networks and LSTM models via KerasTuner
+- Forecast median house values for 2023–2025 using the optimized models.
+- Visualize current and predicted data on tract-level maps using GeoJSON and the TIGERWeb API.
 
 ## Census_Data_Extraction.ipynb
 
