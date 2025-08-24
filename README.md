@@ -4,7 +4,7 @@ This repository contains all the code created in order to extract Census Bureau 
 
 
 
-Census_Data_Extraction.ipynb
+## Census_Data_Extraction.ipynb
 
 This code accesses the Census dataset and creates CSV files with median household income, median house value, racial demographics (counts and percentages), and educational attainment (counts and percentages) for all census tracts in the New Jersey Mercer County area.
 
@@ -27,7 +27,7 @@ Additionally, I recommend looking at the dataset over time before using the upda
 
 
 
-House_Value_Prediction.ipynb
+## House_Value_Prediction.ipynb
 
 This code uses the extracted CSVs (2012–2022) to train and compare models for predicting median house value, then produces forecasts for 2023–2025. It supports linear OLS/Lasso (with LassoCV for alpha selection), XGBoost with Optuna tuning and year-based walk-forward CV, and LSTM and neural network models with KerasTuner. Preprocessing steps include filling missing values, log transformation, MinMax scaling, and creating lag features.
 
@@ -45,7 +45,7 @@ The evaluation metrics utilized throughout the model are MAE, RMSE, and R-square
 
 
 
-Data_Mapping.ipynb
+## Data_Mapping.ipynb
 
 This code merges the CSV dataset with GeoJSON data to produce tract-level maps for current and predicted characteristics. GeoJSON data is fetched from TIGERWeb API.
 
